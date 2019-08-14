@@ -1,0 +1,45 @@
+.container1{
+    background-color: antiquewhite;
+    padding: 20em;
+}
+
+.container2{
+    background-color: mediumaquamarine;
+    padding: 20em;
+}
+
+.container3{
+    padding: 20em;
+}
+
+.container4{
+    padding: 10em;
+    background-color: lightgreen;
+}
+
+.container5{
+    padding: 10em;
+    background-color: lightgrey;
+}
+
+.container6{
+    padding: 10em;
+    background-color: lightgreen;
+}
+
+.container7{
+    padding: 20em;
+}
+
+.container8{
+    padding: 10em;
+    background-color: lightgrey;
+}
+
+.container9{
+    padding: 0.5em;
+    background-color: #383838;
+}
+
+.wholeRow{
+}
