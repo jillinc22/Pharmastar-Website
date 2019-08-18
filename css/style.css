@@ -1,45 +1,235 @@
-.container1{
-    background-color: antiquewhite;
-    padding: 20em;
+body{
+    font-family:'Roboto', Arial, sans-serif;
+}
+
+.container1 img{
+    height: 41.5em; 
+    width: 65em;
+    margin-left: -2em;
 }
 
 .container2{
-    background-color: mediumaquamarine;
-    padding: 20em;
+    background-color: seagreen;
+    height: 41.5em;
 }
 
 .container3{
-    padding: 20em;
+    margin-top: 10em; 
+    height: 50em;
+}
+
+.container3 h1{
+    font-style: italic;
+    text-align: center;
+    padding-top: 15em;
+}
+
+.container3 h2{
+    text-align: right;
+    margin-right: 6em;
 }
 
 .container4{
-    padding: 10em;
+    height: 20em;
     background-color: lightgreen;
+}
+
+.container4 img{
+    height: 20em;
+    width: 33.2em;
+    margin-left: -2.1em;
 }
 
 .container5{
-    padding: 10em;
+    height: 20em;
     background-color: lightgrey;
+}
+
+.container5 img{
+    height: 20em;
+    width: 33.2em;
+    margin-left: -1.1em;
 }
 
 .container6{
-    padding: 10em;
+    height: 20em;
     background-color: lightgreen;
 }
 
+.container6 img{
+    height: 20em;
+    width: 32.15em;
+    margin-left: -1.1em;
+}
+
+#prods{
+    text-align: center;
+}
+
+#prods h1{
+    margin-bottom: 0;
+    padding-top: 1em;
+    padding-bottom: 1em; 
+    color: white;
+    background-color: lightgrey;
+    font-weight: bold;
+}
+
+#prods button{
+    margin-top: -7em;
+}
+
 .container7{
-    padding: 20em;
+    padding-top: 6em;
+    height: 71em; 
+    text-align: center;
+
+}
+
+.container7 h1{
+    margin-top: 5em;
+    padding-top: 2em;
+    padding-bottom: 1.5em; 
+    color: white;
+    background-color: #383838;
+    font-weight: bold;
+}
+
+.container7 img{
+    width: 10em;
+    height: 10em;
+    text-align: center;
+    border-radius: 5em;
+    margin-bottom: 1em;
+    margin-top: 2em; 
+}
+
+.container7 div{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 30px 0 rgba(0,0,0,0.19);
+    margin-left: 9em;
+    margin-top: 6em;
+    width: 20em;
+    height: 27em;
+}
+
+.container7 i{
+    margin: 0.5em;
+    font-size: 1.5em;
+}
+
+.div5 h4{
+    font-size: 1.5em;
+}
+
+.container7 h5{
+    font-weight: bold;
 }
 
 .container8{
-    padding: 10em;
     background-color: lightgrey;
+    height: 24em;
+    padding: 3em;
+}
+
+.container8 h3{
+    padding-bottom: 0.5em;
+}
+
+.lists p{
+    color: grey;
+    font-size: 1.3em;
 }
 
 .container9{
-    padding: 0.5em;
+    height: 2em;
     background-color: #383838;
+    color: white;
+}
+
+.copyright{
+    text-align: center;
+    padding-left: -50em;
+    padding-top: 0.3em;
+}
+
+.div1{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.div2{
+    background-color: white;
+    margin-top: 1em;
+}
+
+.div2 h2{
+    padding-top: 1.5em;
+    padding-left: 0.3em;
+    text-align: center;
+}
+
+.div2 form{
+    padding: 1em 2em 2em 2em;
 }
 
 .wholeRow{
+    padding-top: 3.5em;
 }
+
+nav{
+    background-color: white;
+}
+
+nav li{
+    font-weight: bold;
+    font-size: 1.1em;
+    color: blue;
+}
+
+ul a{
+    color: black;
+}
+
+ul a:hover{
+    color: blue;
+}
+
+.pre{
+    background-color: lightgrey;
+    font-family:'Roboto', Arial, sans-serif;
+}
+
+.social-network{
+    font-size: 2em;
+}
+
+.social-network i{
+    padding: 0.5em; 
+}
+
+  @media (max-width: 767px) {
+ 
+    .navbar-header {
+      margin-top: -12px;
+    }
+ 
+    .navbar {
+      padding-bottom: 1em;
+    }
+
+    .container1 img{
+        height: 41.5em; 
+        width: 100em;
+        margin-left: -2em;
+    }
+ 
+  }
+
+  @media (max-width: 575px) {
+    .container1 img{
+        height: 41.5em; 
+        width: 50em;
+        margin-left: -2em;
+    }
+
+  }
